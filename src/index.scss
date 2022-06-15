@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
 
+
+//IMPORtS 
+@import "./pages/Home/Home.scss";
+@import "./components/Nav/Nav.scss";
+@import "./pages/Footer/Footer.scss";
 body{
   font-family: 'Jura', sans-serif;
 }

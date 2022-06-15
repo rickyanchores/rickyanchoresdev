@@ -1,0 +1,29 @@
+.Nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    .navLinks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        width: 40%;
+    }
+    .hamburger{
+        display: none;
+    }
+}
+
+@media(max-width: 600px){
+    .Nav{
+        border:2px solid #333;
+        .hamburger{
+            display: block;
+        }
+        .navLinks{
+            display: none;
+            width: 100%;
+        }
+    }
+}
