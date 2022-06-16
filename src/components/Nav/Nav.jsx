@@ -26,7 +26,7 @@ const Nav = () => {
             <div className="navLinks">
                {navList.map((link) => {
                    return(
-                       <Link to={link.href}>{link.name}</Link>
+                       <Link className="link" to={link.href}>{link.name}</Link>
                    )
                })}
             </div>

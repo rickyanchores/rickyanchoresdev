@@ -3,12 +3,16 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    height: 10vh;
     .navLinks{
         display: flex;
         justify-content: space-around;
         align-items: center;
         list-style: none;
         width: 40%;
+        .link{
+            text-decoration: none;
+        }
     }
     .hamburger{
         display: none;
