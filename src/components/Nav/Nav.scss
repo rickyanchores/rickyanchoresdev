@@ -4,6 +4,11 @@
     justify-content: space-around;
     align-items: center;
     height: 10vh;
+    .logo{
+        border: 5px solid black;
+        padding: 1em;
+        font-size: 18px;
+    }
     .navLinks{
         display: flex;
         justify-content: space-around;
@@ -12,6 +17,10 @@
         width: 40%;
         .link{
             text-decoration: none;
+            color: black;
+        }
+        .link:hover{
+            border-bottom: 5px solid black;
         }
     }
     .hamburger{
