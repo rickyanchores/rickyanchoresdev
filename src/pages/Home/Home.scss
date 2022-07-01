@@ -8,8 +8,12 @@
     align-items: center;
     padding: 2em;
     height: 90vh;
-    img{
-        width: 350px;
-        border: 2px solid black;
+    .hero-img{
+        padding: 2em;
+        width: 400px;
+        img{
+            width: 350px;
+            box-shadow: -20px 20px 0px 5px #333;
+        }
     }
 }
