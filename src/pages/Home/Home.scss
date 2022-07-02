@@ -8,6 +8,9 @@
     align-items: center;
     padding: 2em;
     height: 90vh;
+    h2{
+        color: teal;
+    }
     .hero-img{
         padding: 2em;
         width: 400px;
@@ -15,5 +18,14 @@
             width: 350px;
             box-shadow: -20px 20px 0px 5px #333;
         }
+    }
+    .hero-btn{
+        background: black;
+        color: whitesmoke;
+        padding:  1.5em;
+        border: none;
+    }
+    .hero-btn:hover{
+        cursor: pointer;
     }
 }
