@@ -4,6 +4,7 @@ import Banner from './components/Banner/Banner';
 import Nav from './components/Nav/Nav';
 import Footer from './pages/Footer/Footer';
 import Home from './pages/Home/Home';
+import Projects from './pages/Projects/Projects';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route component={Home} />   
       </Routes>
       <Home />
+      <Projects />
       <Banner />
       <Footer />
     </Router>
