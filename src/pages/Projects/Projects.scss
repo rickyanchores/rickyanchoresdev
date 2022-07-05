@@ -2,4 +2,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    .title{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+}
+
+@media(max-width: 600px){
+    .Projects{
+        flex-direction: column;
+    }
 }
