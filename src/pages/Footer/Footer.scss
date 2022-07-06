@@ -1,4 +1,12 @@
 .Footer{
     background: black;
     color: whitesmoke;
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
 }
