@@ -3,7 +3,6 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className='Footer'>
-            <h1>Footer</h1>
             <div className="container">
                 <div className="left">
                     <h3>GET IN TOUCH:</h3>
@@ -12,8 +11,10 @@ const Footer = () => {
                     <h5>&copy;2023 Developed by Ricky A</h5>
                 </div>
                 <div className="right">
-                    <h3>CONTACT US:</h3>
-                    
+                    <h3>Ricky A</h3>
+                    <div className="socialLink">FB</div>
+                    <div className="socialLink">IG</div>
+                    <div className="socialLink">TW</div>
                 </div>
             </div>
         </div>
