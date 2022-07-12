@@ -15,6 +15,9 @@ const Nav = () => {
         {
             name: "Contacts",
             href: "#contacts"
+        },        {
+            name: "About",
+            href: "#about"
         }
     ]
 
