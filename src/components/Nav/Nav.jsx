@@ -13,11 +13,12 @@ const Nav = () => {
             href: "#projects"
         },
         {
-            name: "Contacts",
-            href: "#contacts"
-        },        {
             name: "About",
             href: "#about"
+        },
+        {
+            name: "Contacts",
+            href: "#contacts"
         }
     ]
 
