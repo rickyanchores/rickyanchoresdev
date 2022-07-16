@@ -25,7 +25,7 @@ const Projects = (props) => {
     ]
 
     return (
-        <div className='Projects' id='projects'>
+        <div className='Projects'>
             <h3 className='title'>Projects</h3>
             <div className="proj-container">
                 <Card image={imageOne} title={card[0].title} description={card[0].description}/>

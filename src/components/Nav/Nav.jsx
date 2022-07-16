@@ -1,23 +1,20 @@
 import React from 'react'
-import { HashLink as Link } from 'react-router-hash-link'
+import { NavLink as Link } from 'react-router-dom'
 
 const Nav = () => {
 
     const navList = [
         {
             name: "Home",
-            href: "#"
+            href: "/"
         },
         {
-            name: "Projects",
-            href: "#projects"
-        },
-        {
-            name: "Contacts",
-            href: "#contacts"
-        },        {
             name: "About",
-            href: "#about"
+            href: "/"
+        },
+        {
+            name: "FAQ",
+            href: "/"
         }
     ]
 
@@ -29,7 +26,7 @@ const Nav = () => {
             <div className="navLinks">
                {navList.map((link) => {
                    return(
-                       <Link smooth className="link" to={link.href}>{link.name}</Link>
+                       <Link className="link" to={link.href}>{link.name}</Link>
                    )
                })}
             </div>

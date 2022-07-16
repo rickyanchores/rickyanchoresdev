@@ -6,7 +6,7 @@ const Home = () => {
 
 
     return (
-        <div className='Home' id='/'>
+        <div className='Home'>
             <div className="hero-img">
                 <img src={HeroImage} alt="me" />
             </div>
