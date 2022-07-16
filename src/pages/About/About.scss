@@ -1,16 +1,22 @@
 .About{
     background: black;
     color: whitesmoke;
-
     .container{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        padding: 1em;
         img{
             width: 350px;
         }
         .abt-left{
             padding: 5em;
         }
+    }
+}
+
+@media(max-width: 600px) {
+    .container{
+        flex-wrap: wrap;
     }
 }
