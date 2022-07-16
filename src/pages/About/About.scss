@@ -1,0 +1,16 @@
+.About{
+    background: black;
+    color: whitesmoke;
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 350px;
+        }
+        .abt-left{
+            padding: 5em;
+        }
+    }
+}
