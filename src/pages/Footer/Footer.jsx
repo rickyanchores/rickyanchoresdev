@@ -1,9 +1,16 @@
 import React from 'react'
-import { FaFacebook  } from "react-icons/fa"
+import { FaFacebook, FaInstagram,FaGithub  } from "react-icons/fa"
 
 
 
 const Footer = () => {
+
+    const iconStyle = {
+        color: "white",
+        fontSize: "2em",
+        margin: "0.5"
+    }
+
     return (
         <div className='Footer'>
             <div className="container">
@@ -15,9 +22,15 @@ const Footer = () => {
                 </div>
                 <div className="right" id='contacts'>
                     <h3>Ricky A</h3>
-                    <div className="socialLink">{ FaFacebook }</div>
-                    <div className="socialLink">IG</div>
-                    <div className="socialLink">TW</div>
+                    <div className="socialLink">
+                        <FaFacebook style={iconStyle}/>
+                    </div>
+                    <div className="socialLink">
+                        <FaInstagram style={iconStyle}/>
+                    </div>
+                    <div className="socialLink">
+                        <FaGithub style={iconStyle}/>
+                    </div>
                 </div>
             </div>
         </div>
