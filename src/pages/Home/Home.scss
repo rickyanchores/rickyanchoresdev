@@ -1,6 +1,6 @@
 .Home{
     margin: auto;
-    width: 80%;
+    width: 90%;
     //border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
@@ -23,6 +23,7 @@
         background: black;
         color: whitesmoke;
         padding:  1.5em;
+        margin-top: 1em;
         border: none;
     }
     .hero-btn:hover{

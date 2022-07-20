@@ -16,6 +16,7 @@ const Home = () => {
                 <h4>HTML / CSS / Javascript / React</h4>
             <button className='hero-btn'>Download CV</button>
             </div>
+            
         </div>
     )
 }
