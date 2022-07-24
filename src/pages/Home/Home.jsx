@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroImage from "../../images/Ricky.jpg";
+import HeroImage from "../../images/Riko.jpeg";
 
 const Home = () => {
 

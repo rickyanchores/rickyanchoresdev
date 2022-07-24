@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink as Link } from 'react-router-hash-link';
 import {FaBars} from "react-icons/fa"
 import {useRef} from "react"
 
