@@ -1,7 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import {FaBars} from "react-icons/fa"
-import {useRef} from "react"
 
 const Nav = () => {
 
@@ -28,17 +27,13 @@ const Nav = () => {
 
     //RESPONSIVE
 
-    const navRef = useRef();
 
-    const showNavbar = () => {
-        navRef.current.classList.toggle('responnsive_nav');
-    }
 
     return (
-        <div className='Nav' ref={navRef}>
+        <div className='Nav'>
             <div className="logo">RA</div>
-            <button className="hamburger" onClick={showNavbar}>
-                <FaBars />
+            <button className="hamburger">
+                <FaBars className='FaBars'/>
             </button>
             <div className="navLinks">
                {navList.map((link) => {
