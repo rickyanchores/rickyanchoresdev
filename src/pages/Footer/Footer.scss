@@ -10,6 +10,12 @@
         margin: auto;
         .socialLink{
             color: white;
+            padding: 1em;
+            :hover{
+                cursor: pointer;
+                color: teal;
+
+            }
         }
     }
 }
