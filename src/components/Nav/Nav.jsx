@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
-import {FaBars} from "react-icons/fa"
+//
+import { Icon } from 'react-icons-kit';
+import {menu} from 'react-icons-kit/feather/menu';
+import {x} from 'react-icons-kit/feather/x'
 
 const Nav = () => {
 
@@ -26,14 +29,18 @@ const Nav = () => {
 
 
     //RESPONSIVE
+    const [toggle, setToggle] = useState(false);
 
+    const handleToggle = () => {
+        setToggle(!toggle)
+    }
 
 
     return (
-        <div className='Nav'>
+        <div className='Nav' className={toggle? 'Nav expanded': 'Nav'}>
             <div className="logo">RA</div>
-            <button className="hamburger">
-                <FaBars className='FaBars'/>
+            <button className="hamburger" onClick={handleToggle}>
+                {toggle?<Icon icon={x} size={"28px"}/>:<Icon icon={menu} size={"28px"}></Icon>}
             </button>
             <div className="navLinks">
                {navList.map((link) => {
