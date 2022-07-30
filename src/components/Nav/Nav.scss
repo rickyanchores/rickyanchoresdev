@@ -37,17 +37,24 @@
 }
 
 @media(max-width: 600px){
+
     .Nav{
+        position: relative;
+        &.expanded{
+            height: 100vh;
+            transition: 0.5s ease-in-out;
+            .navLinks{
+                flex-direction: column;
+            }
+        }
         //border:2px solid #333;
         background: red;
         transition: 0.5s ease-in-out;
-
         // How to click and expand 
-        :expanded{
-            height: 100%;
-        }
+
         .hamburger{
             display: block;
+            cursor: pointer;
         }
         .navLinks{
             display: none;

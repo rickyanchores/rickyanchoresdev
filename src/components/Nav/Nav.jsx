@@ -37,7 +37,7 @@ const Nav = () => {
 
 
     return (
-        <div className='Nav' className={toggle? 'Nav expanded': 'Nav'}>
+        <div className={`Nav ${toggle ? "expanded" : ""} `}>
             <div className="logo">RA</div>
             <button className="hamburger" onClick={handleToggle}>
                 {toggle?<Icon icon={x} size={"28px"}/>:<Icon icon={menu} size={"28px"}></Icon>}
