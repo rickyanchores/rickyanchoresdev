@@ -43,9 +43,6 @@
         &.expanded{
             height: 100vh;
             transition: 0.5s ease-in-out;
-            .navLinks{
-                flex-direction: column;
-            }
         }
         //border:2px solid #333;
         background: red;
@@ -58,6 +55,7 @@
         }
         .navLinks{
             display: none;
+            flex-direction: column;
             width: 100%;
         }
     }
