@@ -58,7 +58,13 @@
         .hamburger{
             display: block;
             cursor: pointer;
+            :hover{
+                background: black;
+                color: white;
+                transition: 0.5s ease-in-out;
+            }
         }
+
         .navLinks{
             display: none;
         }
