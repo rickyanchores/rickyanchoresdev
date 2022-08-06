@@ -19,6 +19,17 @@
             box-shadow: -20px 20px 0px 5px #333;
         }
     }
+    .title{
+        .sc-container{
+            display: flex;
+            .socialLink{
+                padding: 1em;
+                :hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
     .hero-btn{
         background: black;
         color: whitesmoke;
