@@ -6,11 +6,13 @@
     position:fixed;
     top: 0;
     width: 100%;
-    background: rgb(236, 234, 234);
+    background: #ccc;
+    padding: 1em;
     .logo{
         border: 8px solid black;
-        padding: 0.8em;
-        font-size: 18px;
+        color: black;
+        padding: 0.5em;
+        font-size: 20px;
         font-weight: bolder;
     }
     .navLinks{
@@ -52,7 +54,7 @@
             }
         }
         //border:2px solid #333;
-        background: #ccc;
+        
         transition: 0.5s ease-in-out;
         // How to click and expand 
 
