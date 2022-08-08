@@ -18,7 +18,6 @@ const Footer = () => {
                     <h3>GET IN TOUCH:</h3>
                     <h5>Email: ricky23anchores@gmail.com</h5>
                     <h5>London, United Kingdom</h5>
-                    <h5>&copy;2023 Developed by Ricky A</h5>
                 </div>
                 <div className="right" id='contacts'>
                     <h3>Ricky A</h3>
@@ -33,6 +32,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <h5>&copy;2023 Developed by Ricky A</h5>
         </div>
     )
 }

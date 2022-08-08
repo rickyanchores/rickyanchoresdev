@@ -2,6 +2,9 @@
     background: black;
     color: whitesmoke;
     padding: 2em;
+    h5{
+        text-align: center;
+    }
     .container{
         display: flex;
         justify-content: space-around;
@@ -15,6 +18,24 @@
                 cursor: pointer;
                 color: teal;
 
+            }
+        }
+    }
+}
+
+
+@media(max-width: 600px){
+    .Footer{
+        .container{
+            display: flex;
+            justify-content: space-around;
+            .left{
+                padding: 3em;
+            }
+            .right{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
             }
         }
     }
