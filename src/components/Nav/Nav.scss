@@ -6,12 +6,12 @@
     position:fixed;
     top: 0;
     width: 100%;
-    background: #ccc;
+    background: black;
     padding: 1em;
     margin-bottom: 1em;
     .logo{
-        border: 8px solid black;
-        color: black;
+        border: 8px solid white;
+        color: white;
         padding: 0.5em;
         font-size: 20px;
         font-weight: bolder;
@@ -24,13 +24,13 @@
         width: 40%;
         .link{
             text-decoration: none;
-            color: black;
+            color: white;
             padding: 1em;
         }
         .link:hover{
             border: none;
-            background: black;
-            color: whitesmoke;
+            background: white;
+            color: black;
             transition: 0.2s ease-in-out;
         }
     }
@@ -63,8 +63,8 @@
             display: block;
             cursor: pointer;
             :hover{
-                background: black;
-                color: white;
+                background: white;
+                color: black;
                 transition: 0.5s ease-in-out;
             }
         }
