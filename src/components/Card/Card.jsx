@@ -7,8 +7,12 @@ const Card = (card) => {
             <h3>{card.title}</h3>
             <p>{card.description}</p>
             <div className="btn-container">
-                <button className='btn'>VIEW</button>
-                <button className='btn'>LIVE</button>
+                <button className='btn'>
+                    <a href={card.code} target="_blank">VIEW</a>
+                </button>
+                <button className='btn'>
+                    <a href={card.live} target="_blank">LIVE</a>
+                </button>
             </div>
         </div>
     )
