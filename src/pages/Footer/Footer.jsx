@@ -22,13 +22,19 @@ const Footer = () => {
                 <div className="right" id='contacts'>
                     <h3>Ricky A</h3>
                     <div className="socialLink">
-                        <FaFacebook style={iconStyle}/>
+                        <a href="https://www.facebook.com/kyes.ryk/" target="_blank" rel="noreferrer">
+                            <FaFacebook style={iconStyle}/>
+                        </a>
                     </div>
                     <div className="socialLink">
-                        <FaInstagram style={iconStyle}/>
+                        <a href="https://www.instagram.com/rikid_ev/" target="_blank" rel="noreferrer">
+                            <FaInstagram style={iconStyle}/>
+                        </a>
                     </div>
                     <div className="socialLink">
-                        <FaGithub style={iconStyle}/>
+                        <a href="https://github.com/rickyanchores" target="_blank" rel="noreferrer">
+                            <FaGithub style={iconStyle}/>
+                        </a>
                     </div>
                 </div>
             </div>
