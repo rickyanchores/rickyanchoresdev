@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram,FaGithub  } from "react-icons/fa"
+import { FaFacebook, FaInstagram,FaGithub, FaLinkedinIn  } from "react-icons/fa"
 
 
 
@@ -22,8 +22,8 @@ const Footer = () => {
                 <div className="right" id='contacts'>
                     <h3>Ricky A</h3>
                     <div className="socialLink">
-                        <a href="https://www.facebook.com/kyes.ryk/" target="_blank" rel="noreferrer">
-                            <FaFacebook style={iconStyle}/>
+                        <a href="https://www.linkedin.com/in/rickyanchores/" target="_blank" rel="noreferrer">
+                            <FaLinkedinIn style={iconStyle}/>
                         </a>
                     </div>
                     <div className="socialLink">

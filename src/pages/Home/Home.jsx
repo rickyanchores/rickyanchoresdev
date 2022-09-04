@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebook, FaInstagram,FaGithub  } from "react-icons/fa"
+import { FaFacebook, FaInstagram,FaGithub, FaLinkedin  } from "react-icons/fa"
 import HeroImage from "../../images/Riko.jpeg";
 
 const Home = () => {
@@ -22,13 +22,19 @@ const Home = () => {
                 <h4>HTML / CSS / Javascript / React</h4>
                 <div className="sc-container">
                 <div className="socialLink">
-                        <FaFacebook style={iconStyle}/>
+                        <a href="https://www.linkedin.com/in/rickyanchores/" target="_blank" rel="noreferrer">
+                            <FaLinkedin style={iconStyle}/>
+                        </a>
                     </div>
                     <div className="socialLink">
-                        <FaInstagram style={iconStyle}/>
+                        <a href="https://www.instagram.com/rikid_ev/" target="_blank" rel="noreferrer">
+                            <FaInstagram style={iconStyle}/>
+                        </a>
                     </div>
                     <div className="socialLink">
-                        <FaGithub style={iconStyle}/>
+                        <a href="https://github.com/rickyanchores" target="_blank" rel="noreferrer">
+                            <FaGithub style={iconStyle}/>
+                        </a>
                     </div>
                 </div>
             <button className='hero-btn'>Download CV</button>
