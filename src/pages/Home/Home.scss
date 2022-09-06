@@ -16,7 +16,7 @@
         width: 400px;
         img{
             width: 350px;
-            box-shadow: -20px 20px 0px 5px #333;
+            box-shadow: -20px 20px 0px 5px black;
         }
     }
     .title{
@@ -33,12 +33,18 @@
     }
     .hero-btn{
         background: black;
-        color: whitesmoke;
         padding:  1.5em;
         margin-top: 1em;
         border: none;
+        a{
+            color: whitesmoke;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: 'Jura';
+        }
     }
     .hero-btn:hover{
         cursor: pointer;
+        background: teal;
     }
 }
