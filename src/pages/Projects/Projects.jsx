@@ -12,20 +12,20 @@ const Projects = (props) => {
 
     const card = [
         {   
-            title: "Project One",
-            description: "This is project one",
+            title: "CiTYPiX",
+            description: "Blog site with minimal design completely made from scratch HTML CSS and JS",
             code: "https://github.com/rickyanchores/CiTYPiX",
             live: "https://rickyanchores.github.io/CiTYPiX/"
         },
         {
-            title: "Project Two",
-            description: "This is project two",
+            title: "Kahoii",
+            description: "Blog website with minnimal and cool motions",
             code: "https://github.com/rickyanchores/Kahoii",
             live: "https://rickyanchores.github.io/Kahoii/"
         },
         {
-            title: "Project Three",
-            description: "This is project three",
+            title: "Zenkana",
+            description: "custom website made with REACT",
             code: "https://github.com/rickyanchores/zenkana",
             live: "https://rickyanchores.github.io/zenkana/"
         }
