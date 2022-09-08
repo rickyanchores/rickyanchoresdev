@@ -19,7 +19,7 @@ const Projects = (props) => {
         },
         {
             title: "Kahoii",
-            description: "Blog website with minnimal and cool motions",
+            description: "Blog website with minimal and cool motions",
             code: "https://github.com/rickyanchores/Kahoii",
             live: "https://rickyanchores.github.io/Kahoii/"
         },
