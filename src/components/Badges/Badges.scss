@@ -1,0 +1,15 @@
+.Badges{
+    text-align: center;
+    background: black;
+    color: whitesmoke;
+    padding: 2em;
+    font-size: 20px;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .skill{
+            padding: 1em;
+        }
+    }
+}

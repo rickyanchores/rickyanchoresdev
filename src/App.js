@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Badges from './components/Badges/Badges';
 import Banner from './components/Banner/Banner';
 import Nav from './components/Nav/Nav';
 //import ResponsiveAppBar from './components/ResponsiveAppBar/ResponsiveAppBar';
@@ -18,6 +19,7 @@ const App = () => {
         <Route component={Home} />   
       </Routes>
       <Home />
+      <Badges />
       <Projects />
       <About />
       <Banner />
