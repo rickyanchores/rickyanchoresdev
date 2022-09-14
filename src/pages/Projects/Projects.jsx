@@ -6,6 +6,7 @@ import Card from '../../components/Card/Card'
 import imageOne from "../../images/Citypx.jpg";
 import imageTwo from "../../images/kahoii.jpg";
 import imageThree from "../../images/zenkana.jpg";
+import imageFour from "../../images/JSWeather.png";
 
 
 const Projects = (props) => {
@@ -28,7 +29,14 @@ const Projects = (props) => {
             description: "custom website made with REACT",
             code: "https://github.com/rickyanchores/zenkana",
             live: "https://rickyanchores.github.io/zenkana/"
-        }
+        },
+        {
+            title: "JS Weather",
+            description: "Simple websit with Openweathermap API",
+            code: "https://github.com/rickyanchores/Jsweather",
+            live: "https://jsweatherapi.netlify.app/"
+        },
+
     ]
 
     return (
@@ -38,6 +46,7 @@ const Projects = (props) => {
                 <Card image={imageOne} title={card[0].title} description={card[0].description} code={card[0].code} live={card[0].live}/>
                 <Card image={imageTwo} title={card[1].title} description={card[1].description} code={card[1].code} live={card[1].live}/>
                 <Card image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
+                <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[2].code} live={card[3].live}/>
             </div>
         </div>
     )
