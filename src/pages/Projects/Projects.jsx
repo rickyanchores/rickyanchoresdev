@@ -40,7 +40,7 @@ const Projects = (props) => {
             title: "Museum",
             description: "Moden Minimalism Design",
             code: "https://github.com/rickyanchores/museum",
-            live: "//"
+            live: "https://mus-eum.netlify.app/"
         }
 
     ]
