@@ -7,7 +7,7 @@ import imageOne from "../../images/Citypx.jpg";
 import imageTwo from "../../images/kahoii.jpg";
 import imageThree from "../../images/zenkana.jpg";
 import imageFour from "../../images/JSWeather.png";
-
+import imageFive from "../../images/museum.png";
 
 const Projects = (props) => {
 
@@ -32,10 +32,16 @@ const Projects = (props) => {
         },
         {
             title: "JS Weather",
-            description: "Simple websit with Openweathermap API",
+            description: "Simple website with Openweathermap API",
             code: "https://github.com/rickyanchores/Jsweather",
             live: "https://jsweatherapi.netlify.app/"
         },
+        {
+            title: "Museum",
+            description: "Moden Minimalism Design",
+            code: "https://github.com/rickyanchores/museum",
+            live: "//"
+        }
 
     ]
 
@@ -46,7 +52,8 @@ const Projects = (props) => {
                 <Card image={imageOne} title={card[0].title} description={card[0].description} code={card[0].code} live={card[0].live}/>
                 <Card image={imageTwo} title={card[1].title} description={card[1].description} code={card[1].code} live={card[1].live}/>
                 <Card image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
-                <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[2].code} live={card[3].live}/>
+                <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[3].code} live={card[3].live}/>
+                <Card image={imageFive} title={card[4].title} description={card[4].description} code={card[4].code} live={card[4].live}/>
             </div>
         </div>
     )
