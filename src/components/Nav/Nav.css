@@ -1,0 +1,97 @@
+.Nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  padding: 1em;
+}
+
+.Nav .logo {
+  border: 8px solid white;
+  color: white;
+  padding: 0.5em;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.Nav .navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: 40%;
+}
+
+.Nav .navLinks .link {
+  text-decoration: none;
+  color: white;
+  padding: 1em;
+}
+
+.Nav .navLinks .link:hover {
+  border: none;
+  background: white;
+  color: black;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.Nav .hamburger {
+  display: none;
+  border: none;
+  background: black;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .Nav {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .Nav.expanded {
+    height: 100%;
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
+  }
+  .Nav.expanded .navLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    font-size: 30px;
+  }
+  .Nav .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .Nav .hamburger :hover {
+    background: white;
+    color: black;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+  }
+  .Nav .navLinks {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Nav.css.map */

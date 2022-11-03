@@ -1,0 +1,29 @@
+.Card {
+  background: #333;
+  color: white;
+  width: 450px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin: 1em;
+  text-align: center;
+}
+
+.Card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.Card .btn {
+  margin: 0.5em;
+}
+
+.Card .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.Card .btn:hover {
+  background: teal;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Card.css.map */

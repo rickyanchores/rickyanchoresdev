@@ -1,0 +1,56 @@
+.Footer {
+  background: black;
+  color: whitesmoke;
+  padding: 2em;
+}
+
+.Footer h5 {
+  text-align: center;
+}
+
+.Footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.Footer .container .socialLink {
+  color: white;
+  padding: 1em;
+}
+
+.Footer .container .socialLink :hover {
+  cursor: pointer;
+  color: teal;
+}
+
+@media (max-width: 600px) {
+  .Footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Footer .container .left {
+    padding: 3em;
+  }
+  .Footer .container .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

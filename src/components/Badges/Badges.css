@@ -1,0 +1,24 @@
+.Badges {
+  text-align: center;
+  background: black;
+  color: whitesmoke;
+  padding: 2em;
+  font-size: 20px;
+}
+
+.Badges .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Badges .container .skill {
+  padding: 1em;
+}
+/*# sourceMappingURL=Badges.css.map */

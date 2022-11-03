@@ -5,7 +5,6 @@ const Banner = () => {
         <div className='Banner'>
             <div className="container">
                 
-
             </div>
         </div>
     )
