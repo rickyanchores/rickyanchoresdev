@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-radius: 5px;
+    
     padding: 2em;
     height: 100vh;
     h2{
@@ -16,9 +16,11 @@
     .hero-img{
         padding: 2em;
         width: 400px;
+        border-radius: 12px;
         img{
             width: 350px;
             box-shadow: -20px 20px 0px 5px black;
+            border-radius: 12px;
         }
     }
     .title{
