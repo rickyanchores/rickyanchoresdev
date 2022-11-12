@@ -15,9 +15,9 @@ const Footer = () => {
         <div className='Footer'>
             <div className="container">
                 <div className="left">
-                    <h3>GET IN TOUCH:</h3>
-                    <h5>Email: ricky23anchores@gmail.com</h5>
-                    <h5>London, United Kingdom</h5>
+                    <h1>GET IN TOUCH:</h1>
+                    <h4>Email: ricky23anchores@gmail.com</h4>
+                    <h4>London, United Kingdom</h4>
                 </div>
                 <div className="right" id='contacts'>
                     <h3>Ricky A</h3>
