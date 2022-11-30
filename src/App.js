@@ -10,6 +10,13 @@ import Footer from './pages/Footer/Footer';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
 
+//IMPORT AOS
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 const App = () => {
   return (
     <Router>

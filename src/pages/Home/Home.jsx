@@ -13,11 +13,11 @@ const Home = () => {
 
     return (
         <div className='Home' id='/'>
-            <div className="hero-img">
+            <div className="hero-img" data-aos="fade-up">
                 <img src={HeroImage} alt="me" />
             </div>
-            <div className="title">
-                <h1>Hi, I'm Ricky</h1>
+            <div className="title" data-aos="fade-up">
+                <h1 >Hi, I'm Ricky</h1>
                 <h2>Front End Developer</h2>
                 <h4>HTML / CSS / Javascript / React</h4>
                 <div className="sc-container">

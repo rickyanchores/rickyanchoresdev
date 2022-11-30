@@ -2,6 +2,8 @@ import React from 'react'
 
 import Card from '../../components/Card/Card'
 
+
+
 // IMPORT IMAGES
 import imageOne from "../../images/Citypx.jpg";
 import imageTwo from "../../images/kahoii.jpg";
