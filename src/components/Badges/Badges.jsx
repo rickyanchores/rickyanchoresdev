@@ -12,7 +12,7 @@ const Badges = () => {
   return (
     <div className='Badges'>
         <h3>Tech Stack</h3>
-        <div className="container">
+        <div className="container" data-aos="fade-in">
             <i className="skill">
                 <FaHtml5 style={iconStyle}/>
             </i>

@@ -51,11 +51,11 @@ const Projects = (props) => {
         <div className='Projects' id='projects'>
             <h3 className='title'>Projects</h3>
             <div className="proj-container">
-                <Card image={imageOne} title={card[0].title} description={card[0].description} code={card[0].code} live={card[0].live}/>
-                <Card image={imageTwo} title={card[1].title} description={card[1].description} code={card[1].code} live={card[1].live}/>
-                <Card image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
-                <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[3].code} live={card[3].live}/>
-                <Card image={imageFive} title={card[4].title} description={card[4].description} code={card[4].code} live={card[4].live}/>
+                <Card data-aos="fade-in" image={imageOne} title={card[0].title} description={card[0].description} code={card[0].code} live={card[0].live}/>
+                <Card data-aos="fade-in" image={imageTwo} title={card[1].title} description={card[1].description} code={card[1].code} live={card[1].live}/>
+                <Card data-aos="fade-in" image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
+                <Card data-aos="fade-in" image={imageFour} title={card[3].title} description={card[3].description} code={card[3].code} live={card[3].live}/>
+                <Card data-aos="fade-in" image={imageFive} title={card[4].title} description={card[4].description} code={card[4].code} live={card[4].live}/>
             </div>
         </div>
     )

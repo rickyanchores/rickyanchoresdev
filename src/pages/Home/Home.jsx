@@ -18,7 +18,7 @@ const Home = () => {
             </div>
             <div className="title" data-aos="fade-up">
                 <h1 >Hi, I'm Ricky</h1>
-                <h2>Front End Developer</h2>
+                <h2 data-aos-duration="8000" data-aos="fade-left">Front End Developer</h2>
                 <h4>HTML / CSS / Javascript / React</h4>
                 <div className="sc-container">
                 <div className="socialLink">
