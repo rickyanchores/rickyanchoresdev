@@ -6,9 +6,15 @@
     border-radius: 12px;
     margin: 1em;
     text-align: center;
+    position: relative;
     img{
         width: 100%;
         border-radius: 12px;
+    }
+    img:hover{
+        border: 2px solid #333;
+        scale: .9;
+        transition: 2s ease-in-out;
     }
     .btn{
         margin: 0.5em;
