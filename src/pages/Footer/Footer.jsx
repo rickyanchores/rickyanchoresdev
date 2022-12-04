@@ -15,11 +15,11 @@ const Footer = () => {
         <div className='Footer'>
             <div className="container">
                 <div className="left">
-                    <h1>GET IN TOUCH:</h1>
-                    <h4>Email: ricky23anchores@gmail.com</h4>
-                    <h4>London, United Kingdom</h4>
+                    <h1 data-aos="fade-up">GET IN TOUCH:</h1>
+                    <h4 data-aos="fade-left">Email: ricky23anchores@gmail.com</h4>
+                    <h4 data-aos="fade-left">London, United Kingdom</h4>
                 </div>
-                <div className="right" id='contacts'>
+                <div className="right" id='contacts' data-aos="fade-in">
                     <h3>Ricky A</h3>
                     <div className="socialLink">
                         <a href="https://www.linkedin.com/in/rickyanchores/" target="_blank" rel="noreferrer">
