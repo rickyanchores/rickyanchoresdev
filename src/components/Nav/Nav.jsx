@@ -45,7 +45,7 @@ const Nav = () => {
             <div className="navLinks">
                {navList.map((link) => {
                    return(
-                       <Link smooth className="link" to={link.href}>{link.name}</Link>
+                       <Link data-aos="fade-in" smooth className="link" to={link.href}>{link.name}</Link>
                    )
                })}
             </div>
