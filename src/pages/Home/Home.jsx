@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaInstagram,FaGithub, FaLinkedin  } from "react-icons/fa"
-import HeroImage from "../../images/Riko.jpeg";
+import HeroImage from "../../images/RikoAI.jpeg";
 
 const Home = () => {
 
