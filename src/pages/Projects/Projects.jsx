@@ -10,6 +10,7 @@ import imageTwo from "../../images/kahoii.jpg";
 import imageThree from "../../images/zenkana.jpg";
 import imageFour from "../../images/JSWeather.png";
 import imageFive from "../../images/museum.png";
+import imageSix from "../../images/datatech.png";
 
 const Projects = (props) => {
 
@@ -43,6 +44,12 @@ const Projects = (props) => {
             description: "Moden Minimalism Design",
             code: "https://github.com/rickyanchores/museum",
             live: "https://mus-eum.netlify.app/"
+        },
+        {
+            title: "DataTech",
+            description: "Data Tech Portfolio",
+            code: "https://github.com/rickyanchores/rickydatadev",
+            live: "https://main.d2coimhm1rdfz2.amplifyapp.com/"
         }
 
     ]
@@ -56,6 +63,7 @@ const Projects = (props) => {
                 <Card image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
                 <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[3].code} live={card[3].live}/>
                 <Card image={imageFive} title={card[4].title} description={card[4].description} code={card[4].code} live={card[4].live}/>
+                <Card image={imageSix} title={card[5].title} description={card[5].description} code={card[5].code} live={card[5].live}/>
             </div>
         </div>
     )
