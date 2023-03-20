@@ -44,6 +44,12 @@ const Projects = (props) => {
             description: "Moden Minimalism Design",
             code: "https://github.com/rickyanchores/museum",
             live: "https://mus-eum.netlify.app/"
+        },
+        {
+            title: "Biotrkr",
+            description: "BMR / BMI calculator",
+            code: "https://github.com/rickyanchores/Biotrkr",
+            live: "https://main.d1l6nwyn8to2ht.amplifyapp.com/"
         }
 
     ]
