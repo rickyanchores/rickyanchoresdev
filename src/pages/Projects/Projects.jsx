@@ -10,6 +10,7 @@ import imageTwo from "../../images/kahoii.jpg";
 import imageThree from "../../images/zenkana.jpg";
 import imageFour from "../../images/JSWeather.png";
 import imageFive from "../../images/museum.png";
+import imageSix from "../../images/Biotrkr.png";
 
 const Projects = (props) => {
 
