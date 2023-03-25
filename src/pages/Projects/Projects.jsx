@@ -3,7 +3,6 @@ import React from 'react'
 import Card from '../../components/Card/Card'
 
 
-
 // IMPORT IMAGES
 import imageOne from "../../images/Citypx.jpg";
 import imageTwo from "../../images/kahoii.jpg";
@@ -17,7 +16,7 @@ const Projects = (props) => {
     const card = [
         {   
             title: "CiTYPiX",
-            description: "Blog site with minimal design completely made from scratch HTML CSS and JS",
+            description: "Blog site with minimal design",
             code: "https://github.com/rickyanchores/CiTYPiX",
             live: "https://rickyanchores.github.io/CiTYPiX/"
         },

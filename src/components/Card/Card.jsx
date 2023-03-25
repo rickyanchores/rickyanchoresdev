@@ -8,10 +8,10 @@ const Card = (card) => {
             <p>{card.description}</p>
             <div className="btn-container">
                 <button className='btn'>
-                    <a href={card.code} target="_blank">VIEW</a>
+                    <a href={card.code} target="_blank" rel='noreferrer'>VIEW</a>
                 </button>
                 <button className='btn'>
-                    <a href={card.live} target="_blank">LIVE</a>
+                    <a href={card.live} target="_blank" rel='noreferrer'>LIVE</a>
                 </button>
             </div>
         </div>
