@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <div className='Home' id='/'>
-            <div className="hero-img" data-aos="fade-up">
+            <div className="hero-img" data-aos="fade-left">
                 <img src={HeroImage} alt="me" />
             </div>
             <div className="title" data-aos="fade-up">
