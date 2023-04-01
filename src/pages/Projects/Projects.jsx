@@ -34,7 +34,7 @@ const Projects = (props) => {
         },
         {
             title: "JS Weather",
-            description: "Simple website with Openweathermap API",
+            description: "Weather website with Openweathermap API",
             code: "https://github.com/rickyanchores/Jsweather",
             live: "https://jsweatherapi.netlify.app/"
         }
