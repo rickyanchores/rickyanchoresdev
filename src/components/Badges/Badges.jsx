@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHtml5, FaCss3, FaJs, FaSass, FaReact, FaFigma  } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaJs, FaSass, FaReact, FaFigma, FaBootstrap  } from "react-icons/fa"
 
 const Badges = () => {
 
@@ -24,6 +24,9 @@ const Badges = () => {
             </i>
             <i className="skill">
                 <FaSass style={iconStyle}/>
+            </i>
+            <i className="skill">
+                <FaBootstrap style={iconStyle}/>
             </i>
             <i className="skill">
                 <FaReact style={iconStyle}/>
