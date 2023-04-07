@@ -1,3 +1,11 @@
+//FONT CUSTOM
+
+@font-face {
+    font-family: Anurati;
+    src: url(../../utils/Anurati-Regular.otf);
+}
+
+////
 .Nav{
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +22,7 @@
         border-radius: 12px;
         color: black;
         padding: 0.5em;
+        font-family: Anurati;   // ADDED FONT CUSTOM ANURATI
         font-size: 20px;
         font-weight: bolder;
     }
@@ -77,4 +86,12 @@
             display: none;
         }
     }
+}
+
+
+//FONT CUSTOM
+
+@font-face {
+    font-family: Anurati;
+    src: url(../../utils/Anurati-Regular.otf);
 }
