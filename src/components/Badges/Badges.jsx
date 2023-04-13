@@ -15,24 +15,31 @@ const Badges = () => {
         <div className="container" data-aos="fade-in">
             <i className="skill">
                 <FaHtml5 style={iconStyle}/>
+                <p>html</p>
             </i>
             <i className="skill">
                 <FaCss3 style={iconStyle}/>
+                <p>css</p>
             </i>
             <i className="skill">
                 <FaJs style={iconStyle}/>
+                <p>javascript</p>
             </i>
             <i className="skill">
                 <FaSass style={iconStyle}/>
+                <p>sass</p>
             </i>
             <i className="skill">
                 <FaBootstrap style={iconStyle}/>
+                <p>bootstrap</p>
             </i>
             <i className="skill">
                 <FaReact style={iconStyle}/>
+                <p>react js</p>
             </i>
             <i className="skill">
                 <FaFigma style={iconStyle}/>
+                <p>figma</p>
             </i>
         </div>
     </div>
