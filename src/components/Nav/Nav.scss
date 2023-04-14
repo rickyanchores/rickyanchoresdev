@@ -15,12 +15,14 @@
     top: 0;
     width: 100%;
     background: white;
+    //background: coral;
     padding: 1em;
     z-index: 1000;
     .logo{
         border: 8px solid black;
         border-radius: 12px;
         color: black;
+        //background: red;
         padding: 0.5em;
         font-family: Anurati;   // ADDED FONT CUSTOM ANURATI
         font-size: 20px;
@@ -90,9 +92,3 @@
 }
 
 
-//FONT CUSTOM
-
-@font-face {
-    font-family: Anurati;
-    src: url(../../utils/Anurati-Regular.otf);
-}
