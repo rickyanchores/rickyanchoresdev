@@ -8,7 +8,7 @@ const Card = (card) => {
             <p>{card.description}</p>
             <div className="btn-container">
                 <button className='btn'>
-                    <a href={card.code} target="_blank" rel='noreferrer'>VIEW</a>
+                    <a href={card.code} target="_blank" rel='noreferrer'>CODE</a>
                 </button>
                 <button className='btn'>
                     <a href={card.live} target="_blank" rel='noreferrer'>LIVE</a>
