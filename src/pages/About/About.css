@@ -1,33 +1,35 @@
 .About {
-  background: black;
   color: whitesmoke;
   padding: 2em;
 }
-
 .About .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   padding: 1em;
+  border-radius: 12px;
+  background: black;
 }
-
+.About .container h3 {
+  font-size: 50px;
+}
+.About .container h3:hover {
+  color: teal;
+}
 .About .container img {
   width: 350px;
+  border-radius: 12px;
 }
-
 .About .container .abt-left {
   padding: 5em;
 }
 
 @media (max-width: 600px) {
   .container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
-/*# sourceMappingURL=About.css.map */
+@font-face {
+  font-family: Anurati;
+  src: url(../../utils/Anurati-Regular.otf);
+}/*# sourceMappingURL=About.css.map */

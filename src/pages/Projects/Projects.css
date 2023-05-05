@@ -1,31 +1,20 @@
 .Projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 .Projects .title {
   font-size: 50px;
   font-weight: bolder;
-}
-
-.Projects img:hover {
-  margin: 2em;
-  -webkit-transition: 2s ease-in-out;
-  transition: 2s ease-in-out;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
   .Projects {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
-/*# sourceMappingURL=Projects.css.map */
+@font-face {
+  font-family: Anurati;
+  src: url(../../utils/Anurati-Regular.otf);
+}/*# sourceMappingURL=Projects.css.map */

@@ -3,148 +3,121 @@
   margin: auto;
   padding: 2em;
   width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   padding: 2em;
   height: 100vh;
 }
-
+.Home h1 {
+  font-size: 35px;
+}
 .Home h2 {
   color: teal;
 }
-
 .Home .hero-img {
   padding: 2em;
   width: 400px;
+  border-radius: 12px;
 }
-
 .Home .hero-img img {
   width: 350px;
-  -webkit-box-shadow: -20px 20px 0px 5px black;
-          box-shadow: -20px 20px 0px 5px black;
+  box-shadow: -20px 20px 0px 5px black;
+  border-radius: 12px;
 }
-
 .Home .title .sc-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .Home .title .sc-container .socialLink {
   padding: 1em;
 }
-
 .Home .title .sc-container .socialLink :hover {
   cursor: pointer;
   color: teal;
 }
-
 .Home .hero-btn {
   background: black;
   padding: 1.5em;
   margin-top: 1em;
   border: none;
+  border-radius: 12px;
 }
-
 .Home .hero-btn a {
   color: whitesmoke;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Jura';
+  font-family: "Jura";
 }
-
 .Home .hero-btn:hover {
   cursor: pointer;
   background: teal;
 }
 
+@font-face {
+  font-family: Anurati;
+  src: url(../../utils/Anurati-Regular.otf);
+}
 .Nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100%;
-  background: black;
+  background: white;
   padding: 1em;
+  z-index: 1000;
 }
-
 .Nav .logo {
-  border: 8px solid white;
-  color: white;
+  border: 8px solid black;
+  border-radius: 12px;
+  color: whitesmoke;
+  background: black;
   padding: 0.5em;
+  font-family: Anurati;
   font-size: 20px;
   font-weight: bolder;
 }
-
 .Nav .navLinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
   width: 40%;
 }
-
 .Nav .navLinks .link {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 1em;
 }
-
 .Nav .navLinks .link:hover {
   border: none;
-  background: white;
-  color: black;
-  -webkit-transition: 0.2s ease-in-out;
+  border-radius: 12px;
+  background: black;
+  color: white;
   transition: 0.2s ease-in-out;
 }
-
 .Nav .hamburger {
   display: none;
   border: none;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 
 @media (max-width: 600px) {
   .Nav {
-    -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
   }
   .Nav.expanded {
     height: 100%;
-    -webkit-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
   }
   .Nav.expanded .navLinks {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 1em;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
     font-size: 30px;
   }
@@ -155,42 +128,34 @@
   .Nav .hamburger :hover {
     background: white;
     color: black;
-    -webkit-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out;
   }
   .Nav .navLinks {
     display: none;
   }
 }
-
 .Footer {
   background: black;
   color: whitesmoke;
   padding: 2em;
 }
-
+.Footer h1 {
+  text-align: center;
+}
 .Footer h5 {
   text-align: center;
 }
-
 .Footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   width: 80%;
   margin: auto;
 }
-
 .Footer .container .socialLink {
   color: white;
   padding: 1em;
 }
-
 .Footer .container .socialLink :hover {
   cursor: pointer;
   color: teal;
@@ -198,27 +163,18 @@
 
 @media (max-width: 600px) {
   .Footer .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .Footer .container .left {
     padding: 3em;
   }
   .Footer .container .right {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-around;
+    align-items: center;
   }
 }
-
 .btn {
   background: black;
   color: whitesmoke;
@@ -237,155 +193,147 @@
   color: whitesmoke;
   padding: 2em;
   font-size: 20px;
+  margin-top: 1em;
 }
-
 .Badges .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .Badges .container .skill {
-  padding: 1em;
+  padding: 2em;
+}
+.Badges .container .skill p {
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .Projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
 }
-
 .Projects .title {
   font-size: 50px;
   font-weight: bolder;
-}
-
-.Projects img:hover {
-  margin: 2em;
-  -webkit-transition: 2s ease-in-out;
-  transition: 2s ease-in-out;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
   .Projects {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
-
+@font-face {
+  font-family: Anurati;
+  src: url(../../utils/Anurati-Regular.otf);
+}
 .Card {
   background: #333;
   color: white;
   width: 450px;
   border: 3px solid black;
-  border-radius: 5px;
+  border-radius: 12px;
   margin: 1em;
   text-align: center;
 }
-
+.Card .card-title {
+  color: coral;
+  font-weight: bolder;
+  font-size: 25px;
+}
 .Card img {
   width: 100%;
+  border-radius: 12px;
 }
-
+.Card .tech-stack {
+  padding: 0.5em;
+}
+.Card .tech-stack i {
+  padding: 1em;
+}
+.Card .tech-stack i:hover {
+  color: coral;
+}
 .Card .btn {
   margin: 0.5em;
+  border-radius: 12px;
 }
-
 .Card .btn a {
   text-decoration: none;
   color: white;
 }
-
 .Card .btn:hover {
   background: teal;
   cursor: pointer;
 }
 
-.Projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media (max-width: 600px) {
+  .Card {
+    width: 350px;
+  }
 }
-
+.Projects {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .Projects .title {
   font-size: 50px;
   font-weight: bolder;
-}
-
-.Projects img:hover {
-  margin: 2em;
-  -webkit-transition: 2s ease-in-out;
-  transition: 2s ease-in-out;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
   .Projects {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
-
+@font-face {
+  font-family: Anurati;
+  src: url(../../utils/Anurati-Regular.otf);
+}
 .About {
-  background: black;
   color: whitesmoke;
   padding: 2em;
 }
-
 .About .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   padding: 1em;
+  border-radius: 12px;
+  background: black;
 }
-
+.About .container h3 {
+  font-size: 50px;
+}
+.About .container h3:hover {
+  color: teal;
+}
 .About .container img {
   width: 350px;
+  border-radius: 12px;
 }
-
 .About .container .abt-left {
   padding: 5em;
 }
 
 @media (max-width: 600px) {
   .container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
-
+@font-face {
+  font-family: Anurati;
+  src: url(../../utils/Anurati-Regular.otf);
+}
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Jura', sans-serif;
-}
-/*# sourceMappingURL=index.css.map */
+  font-family: "Jura", sans-serif;
+}/*# sourceMappingURL=index.css.map */
