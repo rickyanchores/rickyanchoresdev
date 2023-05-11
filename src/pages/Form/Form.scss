@@ -5,11 +5,19 @@
     justify-content: space-around;
     align-items: center;
     padding: 2em;
+    height: 100vh;
     .form-container{
         background: #333;
         padding: 1em;
         border-radius: 12px;
         margin: 1em;
+        width: 25em;
+        input{
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+        }
         .submit{
             border: none;
             padding: 1em 2em;
@@ -33,5 +41,16 @@
 @media(max-width: 600px){
     .Form{
         flex-direction: column;
+        .form-container{
+            text-align: center;
+            width: 100%;
+            input{
+                width: 90%;
+                height: 30px;
+            }
+            textarea{
+                width: 90%;
+            }
+        }
     }
 }
