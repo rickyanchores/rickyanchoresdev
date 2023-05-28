@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaHtml5, FaCss3, FaJs, FaSass, FaReact, FaFigma, FaBootstrap, FaGitAlt  } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaJs, FaSass, FaReact, FaFigma, FaBootstrap, FaGitAlt,FaTw  } from "react-icons/fa"
 
 const Badges = () => {
 
