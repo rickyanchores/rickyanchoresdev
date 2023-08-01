@@ -14,7 +14,7 @@ import Projects from './pages/Projects/Projects';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import ContactForm from './components/ContactForm/ContactForm';
+//import ContactForm from './components/ContactForm/ContactForm';
 // ..
 AOS.init();
 
@@ -30,7 +30,7 @@ const App = () => {
       <Badges />
       <Projects />
       <About />
-      <ContactForm />
+      
       <Banner />
       <Footer />
     </Router>
