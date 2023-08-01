@@ -19,7 +19,7 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="ContactForm">
+    <form onSubmit={handleSubmit} className="ContactForm" netlify>
       <div>
         <label htmlFor="name">Name:</label>
         <input
