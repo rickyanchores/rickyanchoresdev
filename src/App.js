@@ -30,7 +30,6 @@ const App = () => {
       <Badges />
       <Projects />
       <About />
-      
       <Banner />
       <Footer />
     </Router>
