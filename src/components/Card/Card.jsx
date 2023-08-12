@@ -6,8 +6,10 @@ import React from 'react'
 const Card = (card) => {
     return (
         <div className='Card'>
-            <img src={card.image} alt="" />
-            <h3 className='card-title'>{card.title}</h3>
+            <div className="wrapper">
+                <img src={card.image} alt="" />
+                <h3 className='card-title'>{card.title}</h3>
+            </div>
             <p>{card.description}</p>
             <div className="btn-container">
                 <button className='btn'>
