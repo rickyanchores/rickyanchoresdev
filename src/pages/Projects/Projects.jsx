@@ -8,6 +8,7 @@ import imageOne from "../../images/Citypx.jpg";
 import imageTwo from "../../images/unsplash-ED.png";
 import imageThree from "../../images/Biotrkr.png";
 import imageFour from "../../images/JSWeather.png";
+import imageFive from "../../images/iOn.png";
 
 
 
@@ -38,6 +39,12 @@ const Projects = (props) => {
             code: "https://github.com/rickyanchores/Jsweather",
             live: "https://jsweatherapi.netlify.app/"
         },
+        {
+            title: "iOn",
+            description: "Modern sticky note made with Tailwind",
+            code: "https://github.com/rickyanchores/iOn",
+            live: "https://i0n.netlify.app/"
+        }
 
     ]
 
@@ -49,6 +56,7 @@ const Projects = (props) => {
                 <Card image={imageTwo} title={card[1].title} description={card[1].description} code={card[1].code} live={card[1].live}/>
                 <Card image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
                 <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[3].code} live={card[3].live}/>
+                <Card image={imageFive} title={card[4].title} description={card[4].description} code={card[4].code} live={card[4].live}/>
             </div>
         </div>
     )
