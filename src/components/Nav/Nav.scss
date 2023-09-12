@@ -14,8 +14,6 @@
     position:fixed;
     top: 0;
     width: 100%;
-    background: white;
-    //background: coral;
     padding: 1em;
     z-index: 1000;
     .logo{
@@ -36,14 +34,14 @@
         width: 40%;
         .link{
             text-decoration: none;
-            color: black;
+            //color: black;
             padding: 1em;
         }
         .link:hover{
             border: none;
             border-radius: 12px;
             background: black;
-            color: white;
+            //color: white;
             transition: 0.2s ease-in-out;
         }
     }

@@ -16,6 +16,10 @@
 @import "./components/ContactForm/ContactForm.scss";
 
 
+$bg-color: whitesmoke;
+$font-color: rgb(236, 236, 236);
+
+
 *{
   padding: 0;
   margin: 0;
@@ -23,5 +27,19 @@
 }
 body{
   font-family: 'Jura', sans-serif;
+  background: $bg-color;
+  //color: $font-color;
+}
+
+.Nav{
+  background-color: $bg-color;
+  .navLinks{
+    .link{
+      color: black;
+    }
+    .link:hover{
+      color: white;
+    }
+  }
 }
 
