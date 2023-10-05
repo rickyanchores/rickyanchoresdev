@@ -1,5 +1,5 @@
 .Card{
-    background: #333;
+    background: black;
     color: white;
     width: 450px;
     border: 3px solid black;
@@ -22,6 +22,7 @@
     .btn{
         margin: 0.5em;
         border-radius: 12px;
+        background: #333;
         a{
             text-decoration: none;
             color: white;
