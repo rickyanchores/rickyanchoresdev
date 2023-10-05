@@ -34,7 +34,7 @@
         width: 40%;
         .link{
             text-decoration: none;
-            //color: black;
+            //color: white;
             padding: 1em;
         }
         .link:hover{
@@ -48,8 +48,10 @@
     .hamburger{
         display: none;
         border: none;
-        background: white;
-        color: black;
+        background: black;
+        color: whitesmoke;
+        padding: 1em;
+        border-radius: 1em;
     }
 }
 
@@ -58,34 +60,31 @@
     .Nav{
         &.expanded{
             height: 100%;
-            transition: 2s ease-in-out;
+            transition: 0.5s ease-in-out;
+            background: #333;
             .navLinks{
                 display: flex;
                 padding: 1em;
                 flex-direction: column;
                 width: 100%;
                 font-size: 30px;
+                .link{
+                    color: white;
+                }
             }
         }
-        //border:2px solid #333;
-        
-        transition: 0.5s ease-in-out;
         // How to click and expand 
-
         .hamburger{
             display: block;
             cursor: pointer;
             :hover{
-                background: white;
-                color: black;
+                color: teal;
                 transition: 0.5s ease-in-out;
             }
         }
-
         .navLinks{
             display: none;
         }
-
     }
 }
 
