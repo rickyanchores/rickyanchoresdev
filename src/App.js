@@ -27,9 +27,9 @@ const App = () => {
         <Route component={Home} />   
       </Routes>
       <Home />
+      <About />
       <Badges />
       <Projects />
-      <About />
       <Banner />
       <Footer />
     </Router>
