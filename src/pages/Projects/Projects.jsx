@@ -51,8 +51,10 @@ const Projects = (props) => {
     return (
         <div className='Projects' id='projects'>
             <h3 className='title' data-aos="fade-up">projects</h3>
-            <div className="proj-container" data-aos="fade-left">
-                <Card image={imageOne} title={card[0].title} description={card[0].description} code={card[0].code} live={card[0].live}/>
+            <div className="proj-container" data-aos="zoom-in-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+                <Card  image={imageOne} title={card[0].title} description={card[0].description} code={card[0].code} live={card[0].live}/>
                 <Card image={imageTwo} title={card[1].title} description={card[1].description} code={card[1].code} live={card[1].live}/>
                 <Card image={imageThree} title={card[2].title} description={card[2].description} code={card[2].code} live={card[2].live}/>
                 <Card image={imageFour} title={card[3].title} description={card[3].description} code={card[3].code} live={card[3].live}/>
