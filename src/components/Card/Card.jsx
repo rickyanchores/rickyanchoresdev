@@ -5,7 +5,9 @@ import React from 'react'
 
 const Card = (card) => {
     return (
-        <div className='Card'>
+        <div className='Card' data-aos="zoom-in-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <div className="wrapper">
                 <img src={card.image} alt="" />
                 <h3 className='card-title'>{card.title}</h3>
